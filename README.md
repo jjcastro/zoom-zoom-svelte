@@ -49,5 +49,5 @@ GOOS=darwin GOARCH=amd64 go build -o dist/zoomzoom server.go
 
 Buidling if if using https://github.com/progrium/darwinkit:
 ```
-GOOS=darwin go build server.go # -> 
+GOOS=darwin go build server.go
 ```
