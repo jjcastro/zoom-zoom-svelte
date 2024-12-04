@@ -29,3 +29,25 @@ Here's my current thinking:
 - [ ] There will be an archivist looking at this repo. Make their life easy
 - [ ] My idea for the above is to host a version of this on GitHub pages (a publicly accessible one that he can use)  but also to give them a bundled executable which should work offline and under all other circumstances.
 
+## Useful commands
+
+This repo was created with:
+```
+pnpm create vite@latest 
+pnpm install vite-plugin-singlefile --save-dev
+```
+
+Build Svelte app:
+```
+pnpm i
+pnpm run build
+```
+Building Go app binary into dist folder:
+```
+GOOS=darwin GOARCH=amd64 go build -o dist/zoomzoom server.go  
+```
+
+Buidling if if using https://github.com/progrium/darwinkit:
+```
+GOOS=darwin go build server.go # -> 
+```
