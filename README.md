@@ -2,6 +2,10 @@
 
 A skeleton project for Zoom Zoom. Uses Svelte (not sveltekit) to generate a single index.html file.
 
+Can be tested with https://github.com/Stengo/DeskPad (hopefully?)
+
+**NOTE:** The place where I found the Svelte PresentationAPI code is https://github.com/search?q=presentationConnection+svelte+canCast&type=code (might not be very good though).
+
 ## Process
 
 Here's my current thinking:
